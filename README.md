@@ -1,4 +1,5 @@
-# 
+# 任务系统前端配置页面
+显示每周任务，并支持修改。以及记录一下常用的课程列表。
 
 > my awesome PIA project([PIA](https://pia.bytedance.net/))
 
