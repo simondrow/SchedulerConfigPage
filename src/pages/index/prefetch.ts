@@ -5,6 +5,6 @@ async function sleep(t: number): Promise<void> {
 export default async function () {
   await sleep(1000);
   return {
-    desc: '来自 Worker 的数据',
+    desc: '2024.8.13 17:54',
   };
 }

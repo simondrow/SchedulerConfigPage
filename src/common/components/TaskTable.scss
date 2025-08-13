@@ -1,0 +1,64 @@
+.task-table-container {
+  margin: 20px;
+  font-family: sans-serif;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .task-cell {
+      height: 100%;
+      min-height: 150px;
+    }
+
+    .task-content {
+      height: 100%;
+      min-height: 150px;
+      cursor: pointer;
+      padding: 4px;
+      transition: background-color 0.2s;
+
+      &:hover {
+        background-color: #f9f9f9;
+      }
+    }
+
+    .task-editor {
+      height: 100%;
+      min-height: 250px;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 8px;
+      border: 1px solid #4CAF50;
+      border-radius: 4px;
+      font-family: sans-serif;
+      font-size: 16px;
+      background-color: #fff;
+    }
+  }
+}

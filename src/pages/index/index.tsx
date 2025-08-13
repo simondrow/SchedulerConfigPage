@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { usePrefetch } from '@piajs/hooks';
 import { Header } from '@common/components/Header';
-import { SectionList } from '@common/components/SectionList';
+import TaskTable from '@common/components/TaskTable';
 import './index.scss';
 import type Prefetch from './prefetch';
 
@@ -15,8 +15,8 @@ const App = () => {
   return (
     <Fragment>
       <Header />
-      <p className="worker">PIA Worker 功能演示：{data.desc}</p>
-      <SectionList />
+      <p className="worker">上次修改时间：{data.desc}</p>
+      <TaskTable />
     </Fragment>
   );
 };
